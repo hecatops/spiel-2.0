@@ -5,9 +5,8 @@ import PixelIcon from './PixelIcon'
 const THEMES = [
   { id: 'sky', label: '☁️ Day', desc: 'Light Blue' },
   { id: 'sakura', label: '🌸 Sakura', desc: 'Soft Pink' },
-  { id: 'forest', label: '🌿 Forest', desc: 'Calming Green' },
+  { id: 'forest', label: '🌿 Forest', desc: 'Dark Green' },
   { id: 'midnight', label: '🌙 Midnight', desc: 'Deep Blue' },
-  { id: 'cyber', label: '⚡ Cyberpunk', desc: 'Dark Cyan and Pink' },
 ]
 
 const COMPANIONS = [
