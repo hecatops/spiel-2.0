@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" shape-rendering="crispEdges">
+  <!-- stem -->
+  <rect x="7" y="12" width="2" height="4" fill="#5D8DE8"/>
+  <rect x="6" y="13" width="1" height="2" fill="#5D8DE8"/>
+  <!-- leaf body -->
+  <rect x="6" y="2" width="6" height="2" fill="#6DBF87"/>
+  <rect x="4" y="4" width="10" height="2" fill="#6DBF87"/>
+  <rect x="3" y="6" width="11" height="2" fill="#6DBF87"/>
+  <rect x="4" y="8" width="10" height="2" fill="#6DBF87"/>
+  <rect x="5" y="10" width="8" height="2" fill="#6DBF87"/>
+  <rect x="7" y="1" width="4" height="1" fill="#6DBF87"/>
+  <!-- vein -->
+  <rect x="7" y="2" width="2" height="10" fill="#DFF8EA"/>
+  <rect x="5" y="5" width="2" height="1" fill="#DFF8EA"/>
+  <rect x="9" y="5" width="2" height="1" fill="#DFF8EA"/>
+  <rect x="5" y="8" width="2" height="1" fill="#DFF8EA"/>
+  <rect x="9" y="8" width="2" height="1" fill="#DFF8EA"/>
+</svg>
