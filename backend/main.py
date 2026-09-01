@@ -31,7 +31,7 @@ app.add_middleware(
 
 API_URL    = "https://api.groq.com/openai/v1/chat/completions"
 API_KEY    = os.environ.get("GROQ_API_KEY")
-MODEL_NAME = "llama-3.1-8b-instant"
+MODEL_NAME = "openai/gpt-oss-20b"
 
 MAX_SESSION_TURNS = 12
 SESSION_TTL_HOURS = 2
