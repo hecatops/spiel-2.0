@@ -29,7 +29,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-API_URL    = "https://api.groq.com/openai/v1/chat/completions"
+API_URL    = "https://api.groq.com/openai/v1"
 API_KEY    = os.environ.get("GROQ_API_KEY")
 MODEL_NAME = "openai/gpt-oss-20b"
 
