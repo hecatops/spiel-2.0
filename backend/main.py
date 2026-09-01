@@ -29,7 +29,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-API_URL    = "https://api.groq.com/openai/v1"
+API_URL    = "https://api.groq.com/openai/v1/chat/completions"
 API_KEY    = os.environ.get("GROQ_API_KEY")
 MODEL_NAME = "openai/gpt-oss-20b"
 
@@ -229,7 +229,6 @@ def call_groq(messages: list) -> str:
         "messages": messages,
         "temperature": 0.85,
         "max_tokens": 500,
-        "response_format": {"type": "json_object"},
     }
     try:
         res = requests.post(API_URL, headers=headers, json=body, timeout=30)
